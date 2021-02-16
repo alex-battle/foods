@@ -22,5 +22,5 @@ setInterval(() => {
     icon.nextElementSibling.classList.add('change')
     }
 }, 2000)
-// 1000 is 1 second
+// 2000 is 2 seconds
 
