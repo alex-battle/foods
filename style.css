@@ -24,6 +24,39 @@ html{
 }
 /* End of Common Styles */
 
+/* navBar */
+.navbar{
+    height: 14rem;
+    width: 100%;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: .2rem .2rem .2rem #000;
+}
+
+.navbar-link{
+    color: #aaa;
+    margin: 0 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-link i{
+    font-size: 7rem;
+}
+.navbar-link span{
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: .5rem;
+    margin-top: .5rem;
+}
+/* End of Nav */
 /* Section 1 */
 .section-1{
     width: 100%;
