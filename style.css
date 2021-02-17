@@ -421,3 +421,45 @@ width: 100%;
 text-align: center;
 }
 /* End of section 4 */
+
+/* Responsive */
+@media (max-width: 1400px){
+    html{
+        font-size: 50%;
+    }
+    .section-2{
+        height: auto;
+        padding: 10rem 0 12rem 0;
+    }
+
+    .cards-container{
+        margin-top: 10rem;
+    }
+    .gallery-link{
+        width: 40rem;
+        height: 25rem;
+    }
+    .food-img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 1000px){
+    .section-heading{
+        margin: 0 5rem;
+        font-size: 9rem;
+    }
+    .section-1-icons{
+        font-size: 25rem;
+    }
+    .cards-container{
+        flex-wrap: wrap;
+    }
+    .card{
+        margin: 5rem;
+    }
+    .section-4{
+        height: 30rem;
+    }
+}
