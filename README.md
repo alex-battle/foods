@@ -1,6 +1,6 @@
-# foods
-# foods
-Demo Link: alex-food.surge.sh
+# Foods
+# Frontend Foods Application
+Demo Link: https://alex-food.surge.sh
 
 Frontend Food site using Html, CSS, and Javascript. 
 
