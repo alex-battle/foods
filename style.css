@@ -188,9 +188,10 @@ html{
     top: 30%;
     left: 2rem;
     width: 0;
-    height: .02rem;
+    height: .2rem;
     background-color: #fff;
     transition: width .5s;
+    z-index: 10;
 }
 .gallery-link:hover::after{
     width: 90%;                                    
